@@ -78,3 +78,71 @@ button{
 } */
 
 
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .input, .output {
+        width: 80%;
+        padding: 50px;
+    }
+    
+    .output {
+        margin-top: 50px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    .input, .output {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .output img {
+        max-width: 100%; /* Adjusted for smaller screens */
+    }
+    
+    
+    .textarea{
+        width: 100%;
+        background-color: transparent;
+        outline: none;
+        resize: none;
+        border: none;
+        font-size: 24px;
+        font-weight: bold;
+        color: #001449;
+    }
+
+    textarea::placeholder{
+        color: #001449;
+    }
+    
+    button{
+        border: none;
+        padding: 12px 24px;
+        border-radius: 32px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    .genButton, .savebutton{
+        background-color: #001449;
+    }
+    
+    .output{
+        background-color:#001449;
+        padding: 20px;
+        border-radius: 32px;
+    }
+    
+    .output img {
+        max-width: 80%; /* Reduced maximum width for smaller screens */
+        height: auto;
+    }
+    
+    
+}
