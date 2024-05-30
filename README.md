@@ -1,4 +1,4 @@
-This repository helps the user to create their own QR for their specific purpose. I can be very helpful while creating QR for some links like of formns. 
+This repository helps the user to create their own QR for their specific purpose. It can be very helpful while creating QR for some links like of formns. 
 One may use the app deployed at https://niticodersh.github.io/QR-Generator/.
 Steps to follow:
 1. Enter the text which you want to map to QR code.
